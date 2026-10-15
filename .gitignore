@@ -1,0 +1,14 @@
+# API-specific ignores. General rules live in the root .gitignore.
+
+# User uploads (e.g. event banners, ticket attachments)
+uploads/
+tmp/
+
+.env
+
+# Generated ticket files (PDF / QR codes) produced at runtime
+storage/
+
+/features.md
+
+/generated/prisma
